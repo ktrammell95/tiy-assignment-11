@@ -124,9 +124,6 @@ function reverseStr (str) {
 }
 
 
-
-
-
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -159,8 +156,13 @@ var spanishColor = function(colorName) {
 };
 
 // Put your answer below -------------------------
+function spanishColor(colorName) {
 
+var myColor = {"rojo":"#ff0000", "blanco":"#ffffff", "azul":"#0000ff", "verde":"#00ff00", "negro":"000000"};
 
+return myColor[colorName]
+
+};
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
