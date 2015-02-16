@@ -88,15 +88,15 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
-// The answer is C.
+The answer is C.
 
-// The function will start off assigning the letter "x".
-// The next code it sees is the Timeout function but because that causes a delay,
-// the code will move on to the letter "z" until the timeout function has finished
-// running. Once done running it will then print the response for "y" in the console log.
-// Therefor the cosole log will print:
-//  The letter is z
-//  The letter is y
+The function will start off assigning the letter "x".
+The next code it sees is the Timeout function but because that causes a delay,
+the code will move on to the letter "z" until the timeout function has finished
+running. Once done running it will then print the response for "y" in the console log.
+Therefor the cosole log will print:
+ The letter is z
+ The letter is y
 
 // -----------------------------------------------
 
@@ -301,6 +301,19 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
+
+Speed is set to NaN when the accelerate is left blank is because the blank
+space cannot be converted into a number so the value is undefined. When it is 
+added to zero it comes back as NaN (not a number).
+
+var speed = 0;
+
+var accelerate = function(amount) {
+  if (amount === undefined ) {
+    amount = 1;
+  }
+  speed += amount;
+};
 
 
 // -----------------------------------------------
