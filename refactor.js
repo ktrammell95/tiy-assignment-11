@@ -209,7 +209,7 @@ var callNTimes = function(callback, num) {
 };
 
 
-callNTimes(function(){console.log("hello")},7);
+// callNTimes(function(){console.log("hello")},7);
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -236,8 +236,18 @@ var decreaseScore = function() {
 };
 
 // Put your answer below -------------------------
+(function() {
+  var score = 0;
 
+  var increaseScore = function() {
+    score++;
+  };
 
+  var decreaseScore = function() {
+    score--;
+  };
+})
+();
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
