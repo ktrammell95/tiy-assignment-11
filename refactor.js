@@ -53,6 +53,7 @@ function sayHi() {
 setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
+
 var sayHi = function() {
   alert("Hello, World!");
 };
@@ -87,6 +88,15 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+// The answer is C.
+
+// The function will start off assigning the letter "x".
+// The next code it sees is the Timeout function but because that causes a delay,
+// the code will move on to the letter "z" until the timeout function has finished
+// running. Once done running it will then print the response for "y" in the console log.
+// Therefor the cosole log will print:
+//  The letter is z
+//  The letter is y
 
 // -----------------------------------------------
 
